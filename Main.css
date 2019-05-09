@@ -1,0 +1,207 @@
+/*DEVELOPER: Roshan Shaik, IS117-004, Spring 2019*/
+
+
+.back {
+
+  height:400px;
+  width: 1300px;
+}
+#about{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 95%;
+    width: 99%;
+    max-width: 1500px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #1FD81F ;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding-bottom: 1px;
+    font-size: .75rem;
+}
+
+/*About Me*/
+ .carousel-inner { 
+
+    padding-top: 1em;
+    padding-left: auto;   
+    padding-bottom: 2em;
+}
+.d-block1{
+
+    width: 85%;
+    height: 50%;
+    padding-left: 10em;/*mobile 5 em*/
+    padding-bottom: 1em;
+}
+
+.d-block{
+
+    width: 85%;
+    height: 50%;
+    padding-left: 10em;/*mobile 5 em*/
+    padding-bottom: 1em;
+
+}
+
+article{
+    position: absolute;
+    margin-left: 5em;
+    margin-right: 5em;
+    text-align: justify;
+}
+#h5-about{
+    
+    text-align: center;
+
+}
+
+h1{
+    text-align: center;
+}
+/*Projects Page */
+.card1{
+    float: left;
+    margin-left: 8em;
+    margin-right: 5em;
+    width: 10em;
+    padding-bottom: 1em;
+    border-top: solid black 2px;
+    border-bottom: solid black 3px;
+}
+.card2{
+    float: left;
+    padding-bottom: 1em;
+    border-top: solid black 2px;
+    border-bottom: solid black 3px;
+}
+.card3{
+    float: left;
+    margin-left: 5em;
+    padding-bottom: 1em;
+    border-top: solid black 2px;
+    border-bottom: solid black 3px;
+
+}
+
+/*Contact Page */
+.rows {
+  position: static;
+  bottom: 10vw;
+  right: 18px;
+  width: 350px;
+  
+}
+.form-group{
+    width: 80%;
+    margin-right: 35em;
+
+}
+
+#submit{
+    margin-left: 20%;
+}
+
+
+/*Contact Page */
+
+#resume-h2{
+    margin-left: 1em;
+}
+#Resume-p{
+    margin-left: 1.5em;
+}
+#res{
+    border-bottom: solid black .5em;
+}
+
+#home-h1{
+    padding-left: 13em;
+    color: green;
+    font-size: 200%;
+
+}
+
+
+
+
+
+
+/* mobile landscape layout (480px to 767px) */
+@media only screen and (max-width: 767px) {
+    .back {
+
+  height:400px;
+  width: 200px;
+}
+   
+    .card1{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card2{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card3{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    #home-h1{
+        padding-left: 2.5em;
+        font-size: 200%;
+        color: green;
+    }
+    #box{
+        width: 100%;
+        padding-bottom: 1em;
+    }
+}
+    /* mobile portrait layout (479px or less) */
+    @media only screen and (max-width: 479px) {
+        .back {
+
+  height:400px;
+  width: 340px;
+}
+       
+        #home-h1{
+            padding-left: 1em;
+            font-size: 200%;
+            color: green;
+        }
+        .card1{
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .card2{
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .card3{
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+        #box{
+            width: 150%;
+            height: auto;
+            float: none;
+
+        }
